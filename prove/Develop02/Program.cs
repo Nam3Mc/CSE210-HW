@@ -56,7 +56,7 @@ class Journal
 
     public void LoadFromFile(string fileName)
     {
-        entries.Clear(); // Clear existing entries
+        entries.Clear(); 
 
         try
         {
