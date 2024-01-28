@@ -5,7 +5,7 @@ public class Reference
     private string book;
     private int chapter;
     private int verse;
-    private int? endVerse; // For handling verse range
+    private int? endVerse; 
 
     public Reference(string book, int chapter, int verse, int? endVerse = null)
     {

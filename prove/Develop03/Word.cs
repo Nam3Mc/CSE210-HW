@@ -8,14 +8,14 @@ public class Word
     public Word(string text)
     {
         this.text = text;
-        isHidden = false; // Initially all words are visible
+        isHidden = false; 
     }
 
     public string GetText()
     {
         if (isHidden)
         {
-            return "______"; // Return underscores if word is hidden
+            return "______"; 
         }
         else
         {
