@@ -2,7 +2,7 @@ using System ;
 using System.Diagnostics;
 using System.Drawing;
 
-[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")] // this code was created by the system to solve an issue! i don't have a clue about it
 public abstract class Shape
 {
     private string _color ;
